@@ -1,7 +1,7 @@
+import { useRef } from "react";
 import ReactDOM from "react-dom";
 import { CSSTransition } from "react-transition-group";
 import "./SideDrawer.css";
-import { useRef } from "react";
 
 const SideDrawer = (props) => {
   const nodeRef = useRef(null);
